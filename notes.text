@@ -1,0 +1,81 @@
+App will track:
+1. Info about park areas
+2. Services
+3. Guests (First and last name ONLY)
+
+6 Destinations:
+
+1. Chamfort River - NE
+    - rafting
+    - canoeing 
+    - fishing 
+
+2. Lost Wolf Hiking Trail - N
+    - Hiking
+    - picnicking
+    - rock climbing 
+
+3. Lodge (main attraction) - NW
+    w/ hotel and restaurant 
+    - lodging 
+    - parking
+    - information 
+    - picnicking 
+
+4. Gander River - SW
+    - fishing
+    - hiking 
+
+5. Campgrounds - S
+    w/ office park and play areas
+    - information
+    - lodging 
+    - parking 
+
+6. Pine Bluff Trails - SE
+    vast # of trails w/ beginner trail having food vendors
+    - hiking
+    - picnicking 
+    - zip lines
+
+
+    LAYOUT:
+    TOP - logo and park name
+    BOTTOM - phone #, email, address
+
+    AREAS:
+    GRID OF 6 AREAS - 2 rows and 3 columns
+    Main content area: GRID and left aligned 
+    - all guest names listed and right aligned
+
+
+What are the main resources (i.e. tables)? Design your ERD first.
+
+What are the properties of each resource?
+
+What is the relationship between the resources? If it's many-to-many, what additional data must you design in your ERD?
+
+Which modules should you create?
+
+What is the responsibility of each module?
+//Function = GuestList
+// List all guests in HTML
+//return GuestListHTML
+
+//Function = ParkAreaList
+//List all park areas in HTML
+//return ParkAreasListHTML
+
+//Function = ServicesList
+//List all services in HTML
+//return ServicesListHTML
+
+What functions should be in which modules?
+
+What is the responsibility of each function?
+
+What should each function return?
+
+What is the specific algorithm for each function? 
+
+Does the function need parameters? Should it return something?
