@@ -78,7 +78,7 @@ const database = {
     },
     {
         id: 3,
-        service: "picknicking",
+        service: "picnicking",
     },
     {
         id: 4,
