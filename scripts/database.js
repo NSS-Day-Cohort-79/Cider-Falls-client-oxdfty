@@ -41,31 +41,38 @@ const database = {
         id: 1,
         name: "Chamfort River",
         location: "Northeastern Section",
+        services: [7, 8, 1]
+
     },
     {
         id: 2,
         name: "Lost Wolf Hiking Trail",
         location: "Northern Section",
+        services: [2, 3, 9]
     },
     {
         id: 3,
         name: "Lodge Area",
         location: "Northwestern Section",
+        services: [4, 5, 6, 3]
     },
     {
         id: 4,
         name: "Gander River",
         location: "Southwestern Section",
+        services: [1, 2]
     },
     {
         id: 5,
         name: "Campgrounds Area",
         location: "Southern Section",
+        services: [6, 4, 5]
     },
     {
         id: 6,
         name: "Pine Bluffs Trails",
         location: "Southeastern Section",
+        services: [2, 3, 10]
     }],
 
     Services: [{
@@ -78,7 +85,7 @@ const database = {
     },
     {
         id: 3,
-        service: "picknicking",
+        service: "picnicking",
     },
     {
         id: 4,
@@ -107,7 +114,9 @@ const database = {
     {
         id: 10,
         service: "zip lines",
-    }]
+    }],
+
+
 }
 
 //exports 
@@ -124,9 +133,11 @@ export const getServices = () => {
 }
 
 
+
+
 //In the northeast section, there is the Chamfort River that supports rafting, canoeing, and fishing.
 //In the northern section, there is the Lost Wolf Hiking Trail that supports hiking, picnicking, and rock climbing.
 //In the northwest section, the main attraction is the Lodge, but there is also a hotel, and a restaurant. This area supports lodging, parking, information, and picnicking.
 //In the southwest section, there is the Gander River, which is a natural preserve, so it only supports fishing and hiking.
-//In the southern section, the main attraction is the Campgrounds. Ther eis also the office park, and children play areas. This area supports information, lodging, and parking.
+//In the southern section, the main attraction is the Campgrounds. There is also the office park, and children play areas. This area supports information, lodging, and parking.
 //In the southeast section, there is the Pine Bluffs Trails, a vast network of trails for all levels of hikers. On the beginner trail, there are food vendors. This area support hiking, picnicking, and zip lines.
