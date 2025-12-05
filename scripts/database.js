@@ -20,7 +20,7 @@ const database = {
     },
     {
         id: 4,
-        firstName: "Marcus" ,
+        firstName: "Marcus",
         lastName: "Johnson",
         ParkAreasId: 4
     },
@@ -38,36 +38,36 @@ const database = {
     }],
 
     ParkAreas: [{
-        id: 1, 
+        id: 1,
         name: "Chamfort River",
         location: "Northeastern Section",
     },
     {
-        id: 2, 
+        id: 2,
         name: "Lost Wolf Hiking Trail",
         location: "Northern Section",
     },
     {
-        id: 3, 
+        id: 3,
         name: "Lodge Area",
         location: "Northwestern Section",
     },
     {
-        id: 4, 
+        id: 4,
         name: "Gander River",
         location: "Southwestern Section",
     },
     {
-        id: 5, 
+        id: 5,
         name: "Campgrounds Area",
         location: "Southern Section",
     },
     {
-        id: 6, 
+        id: 6,
         name: "Pine Bluffs Trails",
         location: "Southeastern Section",
-    }],  
-     
+    }],
+
     Services: [{
         id: 1,
         service: "fishing",
@@ -92,19 +92,19 @@ const database = {
         id: 6,
         service: "information",
     },
-      {
+    {
         id: 7,
         service: "rafting",
     },
-      {
+    {
         id: 8,
         service: "canoeing",
     },
-      {
+    {
         id: 9,
         service: "rock climbing",
     },
-      {
+    {
         id: 10,
         service: "zip lines",
     }]
@@ -119,6 +119,9 @@ export const getParkAreas = () => {
     return structuredClone(database.ParkAreas)
 }
 
+export const getServices = () => {
+    return structuredClone(database.Services)
+}
 
 
 //In the northeast section, there is the Chamfort River that supports rafting, canoeing, and fishing.

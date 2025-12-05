@@ -11,7 +11,7 @@ export const GuestList = () => {
 
     for (const guest of guests) {
         //add state item of ParkAreasForeignKey to be able to use for event listener later
-        guestHTML += `<li data-ParkAreasForeignKey="${guest.ParkAreaId}" data-type="guest">${guest.firstName}, ${guest.lastName}</li>`
+        guestHTML += `<li data-ParkAreasForeignKey="${guest.ParkAreaId}" data-type="guest">${guest.firstName} ${guest.lastName}</li>`
     }
 
     guestHTML += "</ul>"
