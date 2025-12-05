@@ -115,6 +115,10 @@ export const getGuests = () => {
     return structuredClone(database.Guests)
 }
 
+export const getParkAreas = () => {
+    return structuredClone(database.ParkAreas)
+}
+
 
 
 //In the northeast section, there is the Chamfort River that supports rafting, canoeing, and fishing.
