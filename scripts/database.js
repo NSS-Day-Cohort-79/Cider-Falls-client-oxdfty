@@ -110,6 +110,13 @@ const database = {
     }]
 }
 
+//exports 
+export const getGuests = () => {
+    return structuredClone(database.Guests)
+}
+
+
+
 //In the northeast section, there is the Chamfort River that supports rafting, canoeing, and fishing.
 //In the northern section, there is the Lost Wolf Hiking Trail that supports hiking, picnicking, and rock climbing.
 //In the northwest section, the main attraction is the Lodge, but there is also a hotel, and a restaurant. This area supports lodging, parking, information, and picnicking.
