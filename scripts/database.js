@@ -114,6 +114,11 @@ const database = {
 export const getGuests = () => {
     return structuredClone(database.Guests)
 }
+
+export const getParkAreas = () => {
+    return structuredClone(database.ParkAreas)
+}
+
 export const getServices = () => {
     return structuredClone(database.Services)
 }
