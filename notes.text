@@ -62,7 +62,7 @@ What is the responsibility of each module?
 // List all guests in HTML
 //return GuestListHTML
 
-//Function = ParkAreaList
+//Function = ParkAreasList
 //List all park areas in HTML
 //return ParkAreasListHTML
 
